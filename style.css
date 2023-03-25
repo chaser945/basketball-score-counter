@@ -1,0 +1,96 @@
+.container {
+  background-color: #1f2937;
+  padding: 68px 82px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-heading {
+  font-family: "verdana", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.card-score {
+  background-color: #080001;
+  width: 155px;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-score-holder {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 90px;
+  color: #f94f6d;
+}
+.score-add-div {
+  display: flex;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.add-btn {
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Cursed Timer ULiL", verdana, sans-serif;
+  padding: 7px;
+  border: none;
+  background-color: #fbbf24;
+  color: black;
+  box-shadow: 2px 2px 2px black;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+}
+
+.add-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 black;
+}
+
+.new-game-btn {
+  background-color: #fbbf24;
+  border: none;
+  font-size: 35px;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  font-family: verdana, sans-serif;
+  box-shadow: 2px 2px 2px black;
+  max-width: 270px;
+  margin-top: 50px;
+  align-self: center;
+  font-weight: bold;
+ 
+}
+
+.new-game-btn:hover{
+  cursor: pointer;
+}
+
+.new-game-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 black;
+}
